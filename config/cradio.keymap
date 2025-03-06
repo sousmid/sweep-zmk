@@ -65,11 +65,11 @@
         left_layer {
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
-             &kp F1     &kp F2     &kp F3     &kp F4     &kp F5     &kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_PP   &kp F11
+             &kp F1     &kp F2     &kp F3     &kp F4     &kp F5        &kp HOME  &kp PG_DN  &kp PG_UP   &kp END    &kp F11
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-             &none      &none    &kp PG_UP  &kp PG_DN   &kp PSCRN      &kp LEFT   &kp DOWN    &kp UP    &kp RIGHT    &none
+             &none      &none  &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE    &kp LEFT   &kp DOWN    &kp UP    &kp RIGHT    &none
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
-            &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &none          &none      &kp RCTRL  &kp RSHFT  &kp RALT   &kp RGUI
+            &kp LGUI   &kp LALT   &kp LSHFT  &kp LCTRL  &kp C_PP       &kp PSCRN  &kp RCTRL  &kp RSHFT  &kp RALT   &kp RGUI
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &kp ENTER   &trans
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
